@@ -12,6 +12,9 @@
 	// Privileged container in order to access /dev
 	"privileged": true,
 
+
+
+    
 	// Mount USB devices (debug probes, UART interfaces, ...)
 	"mounts": [
 		"source=/dev/bus/usb/,target=/dev/bus/usb/,type=bind"
@@ -66,4 +69,6 @@
 			]
 		}
 	}
+
+    
 }
